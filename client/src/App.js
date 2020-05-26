@@ -24,7 +24,10 @@ class App extends React.Component {
           onStart={() => {
             console.log('onStart hook')
           }}
-          onReset={() => console.log('onReset hook')}
+          onReset={() => {
+            console.log('onReset hook')
+            this.setState({ counter: 0})
+          }}
         >
           {({ start, reset }) => (
               <React.Fragment>
