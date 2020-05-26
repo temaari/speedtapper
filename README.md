@@ -1,5 +1,11 @@
-# damaari-web-app
-This is for ENSE701 Assignment 1B for Group 29
+# speed tappers
 
+before you can run this locally:
 
-To run this locally you should 'run npm dev'
+npm run-script install-client
+
+npm install mongoose express axios morgan concurrently -S
+
+cd client && npm i react-compound-timer
+
+npm run dev
